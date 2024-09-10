@@ -453,7 +453,7 @@ INSTANCE ItMw_1h_PaladinBastard_WPPatch (C_Item)
 	on_unequip			=	UnEquip_1h_PaladinBastard_WPPatch;
 
 	cond_atr[2]   		=	ATR_STRENGTH;
-	cond_value[2]  		=	95;
+	cond_value[2]  		=	105;
 	visual 				=	"1h_bastard_swordWPATCH.3DS";
 
 	description			= name;

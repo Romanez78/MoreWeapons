@@ -575,24 +575,24 @@ instance DIA_Fisk_WEAPONSQUESTION_PATCHWEAPONSNINJA		(C_INFO)
 {
 	npc		 = 	BDT_1097_Addon_Fisk;
 	nr		 = 	3;
-	condition	 = 	DIA_Martin_WEAPONSQUESTION_PATCHWEAPONSNINJA_Condition;
-	information	 = 	DIA_Martin_WEAPONSQUESTION_PATCHWEAPONSNINJA_Info;
+	condition	 = 	DIA_Fisk_WEAPONSQUESTION_PATCHWEAPONSNINJA_Condition;
+	information	 = 	DIA_Fisk_WEAPONSQUESTION_PATCHWEAPONSNINJA_Info;
 	permanent	 = 	FALSE;
 	important	 = 	FALSE;
 	description	 = 	"To je všechno co máš na prodej?";
 };
-func int DIA_Martin_WEAPONSQUESTION_PATCHWEAPONSNINJA_Condition ()
+func int DIA_Fisk_WEAPONSQUESTION_PATCHWEAPONSNINJA_Condition ()
 {	
-	if (Npc_KnowsInfo (other, DIA_Addon_Martin_PreTrade))
+	if (Npc_KnowsInfo (other, DIA_Addon_Fisk_Hi))
 	{
 		return TRUE;
 	};
 };
-func void DIA_Martin_WEAPONSQUESTION_PATCHWEAPONSNINJA_Info ()
+func void DIA_Fisk_WEAPONSQUESTION_PATCHWEAPONSNINJA_Info ()
 {
-	AI_Output(other, self, "DIA_Martin_WEAPONSQUESTION_PATCHWEAPONSNINJA_3_03"); //To je všechno co máš na prodej?
-    AI_Output(self, other, "DIA_Martin_WEAPONSQUESTION_PATCHWEAPONSNINJA_3_04"); //Vlastnì není. Když jsme sem poprvé pøišly tak jsem ve zdejších ruinách našel zvláštní meèe, nejspíš patøily pøedešlím obyvatelùm"
-	AI_Output(self, other, "DIA_Martin_WEAPONSQUESTION_PATCHWEAPONSNINJA_3_05"); //Mùžu ti je prodat jestli chceš.
+	AI_Output(other, self, "DIA_Fisk_WEAPONSQUESTION_PATCHWEAPONSNINJA_3_01"); //To je všechno co máš na prodej?
+    AI_Output(self, other, "DIA_Fisk_WEAPONSQUESTION_PATCHWEAPONSNINJA_3_02"); //Vlastnì není. Když jsme sem poprvé pøišly tak jsem ve zdejších ruinách našel zvláštní meèe, nejspíš patøily pøedešlím obyvatelùm"
+	AI_Output(self, other, "DIA_Fisk_WEAPONSQUESTION_PATCHWEAPONSNINJA_3_03"); //Mùžu ti je prodat jestli chceš.
 };
 //-------------------------------------
 var int FISK_WPATCH_ONE;
@@ -1206,6 +1206,7 @@ instance DIA_PATCH_WEAPONEXPANSION_Pyrokar		(C_INFO)
 func int DIA_PATCH_WEAPONEXPANSION_Pyrokar_Condition ()
 {
 	if (MIS_Ulthar_HeileSchreine_PAL == LOG_SUCCESS)
+	&& (Npc_KnowsInfo (other, DIA_Ulthar_SchreineGeheilt))
 		{
 				return TRUE;
 		};
@@ -1471,10 +1472,10 @@ func void DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSION_Info ()
 {
     AI_Output(other, self, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSION_15_01"); //Mohl by jsi mi udìlat tenhle meè?
 		B_UseFakeScroll();
-		AI_Output(self, other, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSION_13_04"); //To je opravdu zajímavý kousek, kde si k nìmu pøišel?
-    AI_Output(other, self, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSION_15_02"); //Rùznì jsem se toulal abych ten plánek našel, zabralo to docela dlouho.	
-		AI_Output(self, other, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSIONH_13_05"); //Chápu, no udìlat ho dokážu ale budeš si na to muset pøinést suroviny.	
-	AI_Output(other, self, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSION_15_03"); //Co na to potøebuješ?
+		AI_Output(self, other, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSION_13_02"); //To je opravdu zajímavý kousek, kde si k nìmu pøišel?
+    AI_Output(other, self, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSION_15_03"); //Rùznì jsem se toulal abych ten plánek našel, zabralo to docela dlouho.	
+		AI_Output(self, other, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSIONH_13_04"); //Chápu, no udìlat ho dokážu ale budeš si na to muset pøinést suroviny.	
+	AI_Output(other, self, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSION_15_05"); //Co na to potøebuješ?
 	AI_Output(self, other, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSION_13_06"); //V nákresu stojí že potøebuješ jeden kus èerné rudy, dva kusy magické rudy, a dvì kùže trolla.
 	AI_Output(self, other, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSION_13_07"); //Bude to døina docela, takže za tu práci chci 1800 zlatých.
 	AI_Output(other, self, "DIA_BENNET_SLEEPER_NINJA_WEAPONEXPANSION_15_08"); //Dobrá, zkusím ti to všechno pøinést.
