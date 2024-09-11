@@ -4,7 +4,7 @@
 // *****************************************************
 INSTANCE ItMw_1h_BroadSword_WPPatch (C_Item)
 {	
-	name 				=	"Kvalitní Široký Meè";  //NUR MILIZ
+	name 				=	"Fine Broadsword";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -24,7 +24,7 @@ INSTANCE ItMw_1h_BroadSword_WPPatch (C_Item)
 	visual 				=	"new_stl_broadsword.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Jednoruèní talent.";	
+	TEXT[0]             =       "+5% One-Handed Talent.";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -40,7 +40,7 @@ func void UnEquip_1h_BroadSword_WPPatch()
 };
 INSTANCE ItMw_1h_WingedSword_WPPatch (C_Item)
 {	
-	name 				=	"Okøídllený Meè";  //NUR MILIZ
+	name 				=	"Winged Sword";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -60,7 +60,7 @@ INSTANCE ItMw_1h_WingedSword_WPPatch (C_Item)
 	visual 				=	"new_stl_wingsword.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Jednoruèní talent.";	
+	TEXT[0]             =       "+5% One-Handed Talent.";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -76,7 +76,7 @@ func void UnEquip_1h_WingedSword_WPPatch()
 };
 INSTANCE ItMw_1h_SaiDagger_WPPatch (C_Item)
 {	
-	name 				=	"Exotická Dýka";  //NUR MILIZ
+	name 				=	"Exotic Dagger";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -96,7 +96,7 @@ INSTANCE ItMw_1h_SaiDagger_WPPatch (C_Item)
 	visual 				=	"new_stl_dagger.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+10% Jednoruèní talent.";
+	TEXT[0]             =       "+10% One-Handed Talent.";
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Dex_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -112,7 +112,7 @@ func void UnEquip_1h_SaiDagger_WPPatch()
 };
 INSTANCE ItMw_2h_KnightSword_WPPatch (C_Item)
 {	
-	name 				=	"Rytíøský Meè";  //NUR PALADIN 
+	name 				=	"Knight's Sword";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -132,7 +132,7 @@ INSTANCE ItMw_2h_KnightSword_WPPatch (C_Item)
 	visual 				=	"new_stl_claymore.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Obouruèní talent.";	
+	TEXT[0]             =       "+5% Two-Handed Talent.";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_TwoHanded;
@@ -148,7 +148,7 @@ func void UnEquip_2h_KnightSword_WPPatch()
 };
 INSTANCE ItMw_2h_BroadSword_WPPatch (C_Item)
 {	
-	name 				=	"Øezník";  //NUR PALADIN 
+	name 				=	"Butcher";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -168,7 +168,7 @@ INSTANCE ItMw_2h_BroadSword_WPPatch (C_Item)
 	visual 				=	"new_stl_Mastersword.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Obouruèní talent.";
+	TEXT[0]             =       "+5% Two-Handed Talent.";
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_TwoHanded;
@@ -184,7 +184,7 @@ func void UnEquip_2h_BroadSword_WPPatch()
 };
 INSTANCE ItMw_2h_MasterSword_WPPatch (C_Item)
 {	
-	name 				=	"Sekaè";  //NUR PALADIN 
+	name 				=	"Cleaver";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -208,7 +208,7 @@ INSTANCE ItMw_2h_MasterSword_WPPatch (C_Item)
 };
 INSTANCE ItMw_2h_ExecutionersAxe_WPPatch (C_Item)
 {	
-	name 				=	"Popravèí Sekera";  //NUR PALADIN 
+	name 				=	"Executioner's Axe";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -232,7 +232,7 @@ INSTANCE ItMw_2h_ExecutionersAxe_WPPatch (C_Item)
 };
 INSTANCE ItMw_1h_HeavySword_WPPatch (C_Item)
 {	
-	name 				=	"Tìžký Meè";  //NUR MILIZ
+	name 				=	"Heavy Sword";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -257,7 +257,7 @@ INSTANCE ItMw_1h_HeavySword_WPPatch (C_Item)
 };
 INSTANCE ItMw_1h_DecoratedBastardSword_WPatch (C_Item)
 {	
-	name 				=	"Zdobený Meè Bastard";  //NUR MILIZ
+	name 				=	"Decorated Bastard Sword";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -277,7 +277,7 @@ INSTANCE ItMw_1h_DecoratedBastardSword_WPatch (C_Item)
 	visual 				=	"1h_Sword_BastardWPATCH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Jednoruèní talent";	
+	TEXT[0]             =       "+5% One-Handed Talent";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -293,7 +293,7 @@ func void UnEquip_1h_DecoratedBastard_WPatch()
 };
 INSTANCE ItMw_1h_GoodLongSword_WPatch (C_Item)
 {	
-	name 				=	"Dobrý Dlouhý Meè";  //NUR MILIZ
+	name 				=	"Good Longsword";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -313,7 +313,7 @@ INSTANCE ItMw_1h_GoodLongSword_WPatch (C_Item)
 	visual 				=	"1h_Sword_LongWPATCH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+3% Jednoruèní talent";	
+	TEXT[0]             =       "+3% One-Handed Talent";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -329,7 +329,7 @@ func void UnEquip_1h_GoodLongSword_WPatch()
 };
 INSTANCE ItMw_1h_FightingSword_WPatch (C_Item)
 {	
-	name 				=	"Bojový Meè";  //NUR MILIZ
+	name 				=	"Battle Sword";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -349,7 +349,7 @@ INSTANCE ItMw_1h_FightingSword_WPatch (C_Item)
 	visual 				=	"1h_Pal_SwordWPATCH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Jednoruèní talent";	
+	TEXT[0]             =       "+5% One-Handed Talent";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -365,7 +365,7 @@ func void UnEquip_1h_FightingSword_WPatch()
 };
 INSTANCE ItMw_1h_DecoratedCutlass_WPPatch (C_Item)
 {	
-	name 				=	"Zdobená Šavle";  //NUR MILIZ
+	name 				=	"Decorated Cutlass";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -385,7 +385,7 @@ INSTANCE ItMw_1h_DecoratedCutlass_WPPatch (C_Item)
 	visual 				=	"1h_CutlassWPATCH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Jednoruèní talent";	
+	TEXT[0]             =       "+5% One-Handed Talent";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -401,7 +401,7 @@ func void UnEquip_1h_DecoratedCutlass_WPPatch()
 };
 INSTANCE ItMw_1h_WarriorsVengeance_WPPatch (C_Item)
 {	
-	name 				=	"Váleèníkova Pomsta";  //NUR MILIZ
+	name 				=	"Warrior's Vengeance";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -421,7 +421,7 @@ INSTANCE ItMw_1h_WarriorsVengeance_WPPatch (C_Item)
 	visual 				=	"1h_bastard_merylWPATCH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Jednoruèní talent";	
+	TEXT[0]             =       "+5% One-Handed Talent";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -437,7 +437,7 @@ func void UnEquip_1h_WarriorsVengeance_WPPatch()
 };
 INSTANCE ItMw_1h_PaladinBastard_WPPatch (C_Item)
 {	
-	name 				=	"Paladinský Meè Bastard";  //NUR MILIZ
+	name 				=	"Paladin Bastard Sword";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -457,7 +457,7 @@ INSTANCE ItMw_1h_PaladinBastard_WPPatch (C_Item)
 	visual 				=	"1h_bastard_swordWPATCH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Jednoruèní talent";	
+	TEXT[0]             =       "+5% One-Handed Talent";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -473,7 +473,7 @@ func void UnEquip_1h_PaladinBastard_WPPatch()
 };
 INSTANCE ItMw_1h_SoldierSword_WPPatch (C_Item)
 {	
-	name 				=	"Vojenský Meè";  //NUR MILIZ
+	name 				=	"Soldier's Sword";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -498,7 +498,7 @@ INSTANCE ItMw_1h_SoldierSword_WPPatch (C_Item)
 };
 INSTANCE ItMw_1h_BaronsRight_WPPatch (C_Item)
 {	
-	name 				=	"Baronovo Právo";  //NUR MILIZ
+	name 				=	"Baron's Right";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -518,7 +518,7 @@ INSTANCE ItMw_1h_BaronsRight_WPPatch (C_Item)
 	visual 				=	"1h_Sword_BastardBARONWPACH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Jednoruèní talent";	
+	TEXT[0]             =       "+5% One-Handed Talent";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -534,7 +534,7 @@ func void UnEquip_1h_BaronsRight_WPPatch()
 };
 INSTANCE ItMw_1h_GoodAxe_WPPatch (C_Item)
 {	
-	name 				=	"Kvalitní Sekera";  //NUR MILIZ
+	name 				=	"Fine Axe";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -554,7 +554,7 @@ INSTANCE ItMw_1h_GoodAxe_WPPatch (C_Item)
 	visual 				=	"1h_Axe_01WPATCH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+3% Jednoruèní talent";	
+	TEXT[0]             =       "+3% One-Handed Talent";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -570,7 +570,7 @@ func void UnEquip_1h_GoodAxe_WPPatch()
 };
 INSTANCE ItMw_1h_GoodDoubleAxe_WPPatch (C_Item)
 {	
-	name 				=	"Kvalitní Dvoubøitá Sekera";  //NUR MILIZ
+	name 				=	"Fine Double Bladed Axe";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -590,7 +590,7 @@ INSTANCE ItMw_1h_GoodDoubleAxe_WPPatch (C_Item)
 	visual 				=	"1h_Axe_02WPATCH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+3% Jednoruèní talent";	
+	TEXT[0]             =       "+3% One-Handed Talent";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -606,7 +606,7 @@ func void UnEquip_1h_GoodDoubleAxe_WPPatch()
 };
 INSTANCE ItMw_1h_PiratesCompanion_WPPatch (C_Item)
 {	
-	name 				=	"Pirátùv Spoleèník";  //NUR MILIZ
+	name 				=	"Pirate's Companion";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -626,7 +626,7 @@ INSTANCE ItMw_1h_PiratesCompanion_WPPatch (C_Item)
 	visual 				=	"palaszWPACH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+10% Jednoruèní talent";	
+	TEXT[0]             =       "+10% One-Handed Talent";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Dex_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -642,7 +642,7 @@ func void UnEquip_1h_PiratesCompanion_WPPatch()
 };
 INSTANCE ItMw_1h_PiratesAssurance_WPPatch (C_Item)
 {	
-	name 				=	"Pirátova Jistota";  //NUR MILIZ
+	name 				=	"Pirate's Assurance";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -667,7 +667,7 @@ INSTANCE ItMw_1h_PiratesAssurance_WPPatch (C_Item)
 };
 INSTANCE ItMw_2h_Corsair_WPPatch (C_Item)
 {	
-	name 				=	"Korzár";  //NUR PALADIN 
+	name 				=	"Corsair";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -691,7 +691,7 @@ INSTANCE ItMw_2h_Corsair_WPPatch (C_Item)
 };
 INSTANCE ItMw_2h_WarAxe_WPPatch (C_Item)
 {	
-	name 				=	"Váleèná Sekera";  //NUR PALADIN 
+	name 				=	"Warrior's Axe";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -715,7 +715,7 @@ INSTANCE ItMw_2h_WarAxe_WPPatch (C_Item)
 };
 INSTANCE ItMw_2h_FarmersSpear_WPPatch (C_Item)
 {	
-	name 				=	"Sedlácké Kopí";  //NUR PALADIN 
+	name 				=	"Farmer's Spear";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -739,7 +739,7 @@ INSTANCE ItMw_2h_FarmersSpear_WPPatch (C_Item)
 };
 INSTANCE ItMw_2h_SoldierSword_WPPatch (C_Item)
 {	
-	name 				=	"Vojenský Obouruèák";  //NUR PALADIN 
+	name 				=	"Soldier's Two-Hander";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -763,7 +763,7 @@ INSTANCE ItMw_2h_SoldierSword_WPPatch (C_Item)
 };
 INSTANCE ItMw_2h_FineSword_WPPatch (C_Item)
 {	
-	name 				=	"Kvalitní Obouruèák";  //NUR PALADIN 
+	name 				=	"Fine Two-Hander";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -783,7 +783,7 @@ INSTANCE ItMw_2h_FineSword_WPPatch (C_Item)
 	visual 				=	"2h_Noble_SwordFINEWPATCH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Obouruèní talent.";
+	TEXT[0]             =       "+5% Two-Handed Talent.";
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_TwoHanded;
@@ -799,7 +799,7 @@ func void UnEquip_2h_FineSword_WPPatch()
 };
 INSTANCE ItMw_2h_StormSpear_WPPatch (C_Item)
 {	
-	name 				=	"Bouøný Oštìp";  //NUR PALADIN 
+	name 				=	"Storm Spear";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -819,7 +819,7 @@ INSTANCE ItMw_2h_StormSpear_WPPatch (C_Item)
 	visual 				=	"2h_glewiaWPATCH.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+3% Obouruèní talent.";
+	TEXT[0]             =       "+3% Two-Handed Talent.";
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_TwoHanded;
@@ -835,7 +835,7 @@ func void UnEquip_2h_StormSpear_WPPatch()
 };
 INSTANCE ItMw_2h_SleeperWeapon_WPPatch (C_Item)
 {	
-	name 				=	"Spáèùv Pohled";  //NUR PALADIN 
+	name 				=	"Sleeper's Gaze";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -855,8 +855,8 @@ INSTANCE ItMw_2h_SleeperWeapon_WPPatch (C_Item)
 	visual 				=	"ItMw_2H_SleeperEye.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5% Obouruèní talent.";
-	TEXT[0]             =       "+15 ke všem obranám.";	
+	TEXT[0]             =       "+5% Two-Handed Bonus.";
+	TEXT[0]             =       "+15 Protection against all.";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_TwoHanded;
@@ -882,7 +882,7 @@ func void UnEquip_2h_SleeperWeapon_WPPatch()
 };
 INSTANCE ItMw_2h_JanDragonSword_WPPatch (C_Item)
 {	
-	name 				=	"Sekáè Drakù";  //NUR PALADIN 
+	name 				=	"Dragonrender";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -903,8 +903,8 @@ INSTANCE ItMw_2h_JanDragonSword_WPPatch (C_Item)
     effect                      =       "SPELLFX_HEALTHPOTION";
 
 	description			= name;
-	TEXT[0]             =       "+5% Obouruèní talent.";
-	TEXT[1]             =       "+30 Ochrana proti ohni";	
+	TEXT[0]             =       "+5% Two-Handed Talent.";
+	TEXT[1]             =       "+30 Protection against fire";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_TwoHanded;
@@ -922,7 +922,7 @@ func void UnEquip_2h_JanDragonSword_WPPatch()
 };
 INSTANCE ItMw_1h_JanDragonSword_WPPatch (C_Item)
 {	
-	name 				=	"Sekáè Drakù";  //NUR MILIZ
+	name 				=	"Dragonrender";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -943,8 +943,8 @@ INSTANCE ItMw_1h_JanDragonSword_WPPatch (C_Item)
     effect                      =       "SPELLFX_HEALTHPOTION";
 
 	description			= name;
-	TEXT[0]             =       "+5% Jednoruèní talent";	
-	TEXT[1]             =       "+25 Ochrana proti ohni";		
+	TEXT[0]             =       "+5% One-Handed Talent";	
+	TEXT[1]             =       "+25 Protection against fire";		
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -962,7 +962,7 @@ func void UnEquip_1h_JanDragonSword_WPPatch()
 };
 INSTANCE ItMw_1h_Blaise_WPPatch (C_Item)
 {	
-	name 				=	"Meè Váleèníkù z Jharkendaru";  //NUR MILIZ
+	name 				=	"Sword of the Warrior's Caste";  //NUR MILIZ
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_SWD;	
@@ -982,7 +982,7 @@ INSTANCE ItMw_1h_Blaise_WPPatch (C_Item)
 	visual 				=	"ItMw_1H_Sword_Blaise.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+5 Obrana proti všem poškozením";	
+	TEXT[0]             =       "+5 Protection against all";	
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_OneHanded;
@@ -1006,7 +1006,7 @@ func void UnEquip_1h_Blaise_WPPatch()
 };
 INSTANCE ItMw_2h_Blaise_WPPatch (C_Item)
 {	
-	name 				=	"Obouruèní Meè Váleèníkù z Jharkendaru";  //NUR PALADIN 
+	name 				=	"Two-Hander of the Warrior's Caste";  //NUR PALADIN 
 
 	mainflag 			=	ITEM_KAT_NF;
 	flags 				=	ITEM_2HD_SWD;	
@@ -1026,7 +1026,7 @@ INSTANCE ItMw_2h_Blaise_WPPatch (C_Item)
 	visual 				=	"ItMw_2H_Sword_Blaise.3DS";
 
 	description			= name;
-	TEXT[0]             =       "+10 Obrana proti všem poškozením.";
+	TEXT[0]             =       "+10 Protection against all.";
 	TEXT[2]				= NAME_Damage;					COUNT[2]	= damageTotal;
 	TEXT[3] 			= NAME_Str_needed;				COUNT[3]	= cond_value[2];
 	TEXT[4] 			= NAME_TwoHanded;
@@ -1050,7 +1050,7 @@ func void UnEquip_2h_Blaise_WPPatch()
 };
 instance ItWr_BluePrint1_Sleeper_WPATCH(C_Item)
 {
-	name = "První èást nákresu meèe se vzorem Spáèe";
+	name = "First half of a blueprint with the look of the sleeper";
 
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
@@ -1066,7 +1066,7 @@ instance ItWr_BluePrint1_Sleeper_WPATCH(C_Item)
 };
 instance ItWr_BluePrint2_Sleeper_WPATCH(C_Item)
 {
-	name = "Druhá èást nákresu meèe se vzorem Spáèe";
+	name = "Second half of a blueprint with the look of the sleeper";
 
 	mainflag = ITEM_KAT_DOCS;
 	flags = ITEM_MISSION;
